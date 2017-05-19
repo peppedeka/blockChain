@@ -1,0 +1,14 @@
+package blockChain;
+
+import it.unimi.dsi.webgraph.BVGraph;
+
+public class BlockChain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BVGraph graph;
+		
+		graph = BVGraph.load("./bvtime0.graph");
+	}
+
+}
