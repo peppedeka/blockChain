@@ -8,14 +8,16 @@ public class BlockChain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		BVGraph graph;
+		BVGraph graph = null;
 		
 		try {
-			graph = BVGraph.load("./blockChain/bvtime0.graph");
+			graph = BVGraph.load("./bvtime0");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
-
+		System.out.println("stop");
+		int ws = graph.windowSize();
+	};
+	
 }
